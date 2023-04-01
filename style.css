@@ -1,0 +1,219 @@
+body{
+  margin: 0px;
+  padding: 0px;
+background-color: #ffffff;
+
+}
+
+ 
+ 
+ form{
+  border: rgb(0, 152, 0) solid;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    position:absolute;
+    left:31%
+   
+ }
+ form h1{
+    
+    font-size: 25px;
+    text-align: center;
+ }
+ 
+  form .separation{
+    width: 100%;
+    height: 6px;
+    border-radius: 20px;
+    background-color: rgb(0, 152, 0);
+  }
+  form .corps{
+    display: flex;
+    flex-wrap: wrap;
+  }
+   
+form .corps .boite{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+} 
+form .corps .gauche .boite input{
+    position: relative;
+    margin-top: 5px;
+    padding: 5px 5px 10px 30px;
+    border-radius: 8px;
+    border: 2px solid #c9c9c9;
+    outline-color:rgb(0, 152, 0);
+}
+form .corps .gauche .boite i{
+position: absolute;
+left: 10px;
+padding: 32px ;
+color:rgb(0, 152, 0) ;
+
+
+}
+form .corps .droite .boite{
+    margin-left:40px ;
+}
+form .corps .droite .boite textarea{
+    height: 100%;
+    position: relative;
+    margin-top: 5px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px solid #c9c9c9;
+    outline-color:rgb(0, 152, 0);
+}
+form .bas-formulaire button{
+    margin-top: 27px;
+    padding: 5px 15px;
+    position: relative;
+    color:white ;
+    border-radius: 8px;
+    background-color:rgb(0, 152, 0) ;
+    border: none;
+    
+}
+form .bas-formulaire button:hover{
+  transform: scale(1.5); 
+}
+
+ nav{
+
+  position: absolute;
+   background-color: rgb(255, 255, 255);
+    height: 25px;
+    width: 1550px;
+position: fixed;
+padding: 5px;
+margin-top: -50px;
+box-shadow: 0 4px 8px 0 rgb(153, 242, 153), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+z-index: +1;
+
+    }
+
+  
+span{ 
+ 
+  position: relative;
+   
+margin-left:50px;
+  margin-bottom: 0px;
+ border:none; 
+  padding-top: 0px;
+  background-color: rgb(255, 255, 255);
+ text-transform: lowercase;
+ 
+  
+  padding :5px 5px;
+}
+span:hover{
+  background-color: rgb(0, 152, 0);
+  
+  border-radius: 2px;
+  
+
+  padding: 13px 13px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+span:link{
+  text-decoration:none; 
+}
+
+.logo{
+  position:relative;
+margin-top: 50px;
+
+  margin-left: 530px;
+margin-bottom: 10px;
+z-index: -1;
+ }
+nav .log{
+    position:absolute;
+  
+  margin-top: 0px;
+margin-left: 1350px;
+  margin-top: -26px;
+  height:28px;
+  width:20px;
+  padding-left:30px;
+ 
+  padding-top: 10px;
+  padding-right: 50px ;
+  
+
+}
+ nav .log:hover{
+
+  position: absolute;
+
+    background-color: rgb(0, 152, 0);
+
+   
+ }
+ .sep{
+  position: relative;
+  margin-left: 200px;
+  width: 70%;
+  height: 6px;
+  border-radius: 20px;
+  background-color: rgb(0, 152, 0);
+ }
+
+ .container {
+  display: flex;
+  justify-content: center;
+}
+
+.container img {
+  cursor: pointer;
+  margin: 10px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  left: 34%;
+
+}
+img{
+  border-radius: 10% ;
+ 
+}
+
+.image-container:hover .btn {
+  display: block;
+}
+
+.btn {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #00ff48;
+  color: rgb(30, 19, 19);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#about{
+  margin-top: 100px;
+  position:absolute;
+ }
+
+  p{
+    position: relative;
+    margin-left: 350px;
+   border-radius: 20px;
+    width: 700;
+    background-color: rgb(0, 152, 0);
+    color: #ffffff;
+    padding: 20px 20px;
+  }
